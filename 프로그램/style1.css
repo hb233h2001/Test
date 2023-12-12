@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.nkw-table {
+    width: 30%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.abc {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nkw-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nkw-table td:first-child {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    min-width: 100px;
+}
+
+.nkw-table td:nth-child(even) {
+    text-align: left;
+}
+
+.nkw-table td:nth-child(odd) {
+    text-align: center;
+}
+
+.nkw-table tr:last-child td {
+    border-bottom: none;
+}
+
+.dfg{
+    width: 5%;
+    height: 3%;
+}
